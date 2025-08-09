@@ -1,9 +1,9 @@
 class Poltergeist < Formula
   desc "Universal file watcher with auto-rebuild for any language or build system"
   homepage "https://github.com/steipete/poltergeist"
-  url "https://github.com/steipete/poltergeist/releases/download/v1.7.0/poltergeist-macos-universal-v1.7.0.tar.gz"
-  sha256 "2a1f63a90b3f7632f2c13a0d696beb5fec8c3567e3dc88750c673ddd11f1e59a"
-  version "1.7.0"
+  url "https://github.com/steipete/poltergeist/releases/download/v1.7.1/poltergeist-macos-universal-v1.7.1.tar.gz"
+  sha256 "81ec79c0a2adfb74dd7eb110ad100f4b0abd94a115f5a91232ae00751bba6ae9"
+  version "1.7.1"
   license "MIT"
 
   def install
@@ -13,6 +13,6 @@ class Poltergeist < Formula
 
   test do
     system "#{bin}/poltergeist", "--version"
-    assert_match "1.7.0", shell_output("#{bin}/poltergeist --version")
+    assert_match "1.7.1", shell_output("#{bin}/poltergeist --version")
   end
 end
