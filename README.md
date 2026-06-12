@@ -1,22 +1,12 @@
-# Homebrew Tap for Poltergeist
+# Poltergeist Homebrew Tap (Moved)
 
-This is the official Homebrew tap for [Poltergeist](https://github.com/steipete/poltergeist), the universal file watcher with auto-rebuild.
+Poltergeist now ships from the regular [`steipete/tap`](https://github.com/steipete/homebrew-tap).
+This repository remains only to migrate existing Homebrew installations.
 
 ## Installation
 
 ```bash
-brew tap steipete/poltergeist
-brew install poltergeist
+brew install steipete/tap/poltergeist
 ```
 
-## Usage
-
-After installation, you'll have two commands available:
-- `poltergeist` - The main daemon command for watching and building
-- `polter` - The smart execution wrapper
-
-See the [main repository](https://github.com/steipete/poltergeist) for full documentation.
-
-## License
-
-MIT
+See the [Poltergeist repository](https://github.com/steipete/poltergeist) for documentation.
